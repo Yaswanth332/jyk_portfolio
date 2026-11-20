@@ -51,6 +51,18 @@ export const Footer: React.FC<FooterProps> = ({ onOpenResume }) => {
               <span>GitHub</span>
             </a>
 
+            {PERSONAL_INFO.linkedinUrl && (
+              <a
+                href={PERSONAL_INFO.linkedinUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#06b6d4] transition-colors flex items-center gap-1.5"
+              >
+                <Linkedin className="w-3.5 h-3.5" />
+                <span>LinkedIn</span>
+              </a>
+            )}
+
             <a
               href={`mailto:${PERSONAL_INFO.email}`}
               className="hover:text-[#06b6d4] transition-colors flex items-center gap-1.5"

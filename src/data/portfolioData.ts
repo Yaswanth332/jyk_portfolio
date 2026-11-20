@@ -28,18 +28,16 @@ export const PERSONAL_INFO = {
   github: 'https://github.com/Yaswanth332',
   githubUsername: 'Yaswanth332',
   
-  // Confirmed placeholders with explicit owner TODOs
-  // TODO: paste confirmed LinkedIn profile URL
-  linkedinUrl: '',
-  linkedinPlaceholderLabel: 'LinkedIn (Pending URL confirmation)',
+  // Confirmed links provided by Yaswanth
+  linkedinUrl: 'https://www.linkedin.com/in/jonnalagaddayaswanthkrishna/',
+  linkedinPlaceholderLabel: 'LinkedIn Profile',
   
-  // TODO: paste confirmed LeetCode profile URL
-  leetcodeUrl: '',
+  leetcodeUrl: 'https://leetcode.com/u/Yaswanth_332/',
   sqlPracticeRepoUrl: 'https://github.com/Yaswanth332/SQL-LeetCode-50',
   
-  // TODO: add resume PDF at public/resume/Yaswanth_Krishna_Resume.pdf
+  // Confirmed Resume PDF
   resumePath: '/resume/Yaswanth_Krishna_Resume.pdf',
-  hasResumePdf: false, // Set to true once Yaswanth_Krishna_Resume.pdf is provided in public/resume/
+  hasResumePdf: true,
 
   cgpa: '9.3/10',
   university: 'Rajiv Gandhi University of Knowledge Technologies (RGUKT), Ongole',
@@ -525,8 +523,7 @@ export const PROBLEM_SOLVING_DATA = {
       status: 'Active daily practice'
     },
   ],
-  // TODO: paste confirmed LeetCode profile URL
-  leetcodeUrl: '',
+  leetcodeUrl: 'https://leetcode.com/u/Yaswanth_332/',
 };
 
 export const GITHUB_REPOSITORIES: GitHubRepoItem[] = [

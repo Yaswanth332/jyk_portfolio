@@ -120,9 +120,10 @@ export const ProblemSolving: React.FC = () => {
                   href={PROBLEM_SOLVING_DATA.leetcodeUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#18181b] hover:bg-[#27272a] text-[#fafafa] border border-[#27272a]"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#18181b] hover:bg-[#27272a] text-[#fafafa] border border-[#27272a] transition-colors"
+                  id="leetcode-profile-link"
                 >
-                  <span>LeetCode Profile</span>
+                  <span>LeetCode Profile (@Yaswanth_332)</span>
                   <ExternalLink className="w-3.5 h-3.5 text-[#06b6d4]" />
                 </a>
               ) : (
